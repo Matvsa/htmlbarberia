@@ -1,0 +1,176 @@
+@font-face {
+    font-family: zing;
+    src: url("ZingRustDemo-Base.otf");
+}
+
+
+
+header {
+    background-color:black;
+    padding: 20px;
+    
+}
+
+    .caixa{
+        position: relative;
+        width: 940px;
+        margin: 0 auto ;
+    }
+
+
+h1{
+    width: 100%;
+}
+
+
+    nav{
+        position: absolute;
+        top: 110px;
+        right: 0;
+    }
+            
+
+
+            nav li {
+                display: inline;
+                margin: 0 0 0 15px;
+
+            }
+
+            nav a {
+                text-transform: uppercase;
+                color: white;
+                font-style: bold;
+                font-size: 20px;
+                text-decoration: none;
+            }
+            nav a:hover{
+                color: yellow;
+                text-decoration: underline;
+            }
+   
+            
+/* body */
+.banner{
+        width: 940px;
+        margin: 0 auto;
+        border: black 5px solid;
+        }
+
+.titulo {
+    position: absolute;
+    right: 590px;
+    width: 300px;
+    top: 290px;
+    font-size: 30px;
+    font-style: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: "zing";
+}
+
+.sobre{
+    position: absolute;
+    right: 60px;
+    width: 800px;
+    top: 340px;
+    font-size: 30px
+}
+
+
+    .missao {
+        font-family: "zing";
+        position: absolute;
+        top: 480px;
+        right: 360px;
+        font-size: 50px;
+    }
+
+
+    .missaop{
+        position: absolute;
+        top: 530px;
+        right: 90px;
+        width: 700px;
+        font-size: 50px;
+        font-weight: bold;
+        
+
+    }
+
+    .tesoura{
+        position: absolute;
+        width: 150px;
+        right: 400px;
+        top: 700px;
+    }
+
+
+.conheca{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 100px;
+
+}
+
+.cabeleleiros{
+    display: inline;
+    width: 400px;
+    margin: 0 50px;
+}
+
+.cabeleleiros li {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding: 50px 20px;
+    vertical-align: top;
+    margin: 50px 1,5%;
+    box-sizing: border-box;
+
+}
+
+
+
+    .cabeleleiros h2{
+        font-size: 30px;
+        font-weight: bold;
+        margin: 10px;
+    }
+
+    .sobrec {
+        font-size: 18px;
+        width: 480px;
+        margin: 20px;
+    }
+
+
+    .cabeleleiros li:hover{
+        font-size: 50px;
+    }
+
+
+
+.final {
+    text-align: center;
+    padding: 70px 500px;
+    font-size: 35px;
+    font-family: "zing";
+}
+
+
+
+
+
+/* baixo */
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+}
+
+.cop{
+    color: white;
+    font-size: 15px;
+    padding: 15px 0;
+}
